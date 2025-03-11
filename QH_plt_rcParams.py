@@ -14,7 +14,9 @@ plt.rcParams.update({  # 用.update可以一次设置很多参数。
     'figure.subplot.right': 0.97,
     'figure.subplot.top': 1,
     'figure.subplot.bottom': 0.03,
-    
+#Pdf 矢量文字
+    'pdf.fonttype': 42,
+    'ps.fonttype': 42,  
 #字体
     'font.family': ['Arial'],
     'font.size': 10,
