@@ -10,7 +10,7 @@ plt.rcParams.update({  # 用.update可以一次设置很多参数。
     'figure.constrained_layout.wspace': 0.02,
     'figure.subplot.hspace': 0.01,
     'figure.subplot.wspace': 0.18,
-    'figure.subplot.left': 0.05,
+    'figure.subplot.left': 0.03,
     'figure.subplot.right': 0.97,
     'figure.subplot.top': 1,
     'figure.subplot.bottom': 0.03,
@@ -22,9 +22,9 @@ plt.rcParams.update({  # 用.update可以一次设置很多参数。
     'font.size': 10,
 #坐标轴
     "axes.linewidth": 0.5,
-    'axes.labelsize': 20,
+    'axes.labelsize': 24, #PC用26.667，Lap用24
     "lines.linewidth": 0.5, #控制scatter描边粗细，太细显示的不好看
-    "lines.markersize": 15,
+    "lines.markersize": 14, #PC用?，Lap用16
     "lines.markeredgewidth": 0.5,
     "xtick.minor.visible": True,
     "ytick.minor.visible": True,
@@ -34,14 +34,15 @@ plt.rcParams.update({  # 用.update可以一次设置很多参数。
     "ytick.minor.size": 4,
     "xtick.major.pad": 7,  # 间距
     "ytick.major.pad": 7,  # 间距
-    "xtick.labelsize": 20, 
-    "ytick.labelsize": 20, 
+    "xtick.labelsize": 18, #PC用20，Lap用18
+    "ytick.labelsize": 18, #PC用20，Lap用18
     "xtick.direction": 'in',
     "ytick.direction": 'in',
     "xtick.major.width": 0.5,
     "ytick.major.width": 0.5,
     "xtick.minor.width": 0.5,
-    "ytick.minor.width": 0.5
+    "ytick.minor.width": 0.5,
 #图例
+    "legend.fontsize": 14  #PC用?，Lap用14
 })
 
